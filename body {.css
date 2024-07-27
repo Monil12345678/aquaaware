@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e6f0ff, #cce0ff, #b3d1ff, #99c2ff);
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    font-weight: bold;
+    color: #003366; /* Dark blue */
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+header nav ul li:hover {
+    color: #66a3ff; /* Light blue */
+}
+
+.hero {
+    background: url('/mnt/data/watertap.jfif') no-repeat center center/cover;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    position: relative;
+    height: 60vh; /* Adjust the height as needed */
+}
+
+.hero-content {
+    max-width: 50%;
+    background: rgba(0, 86, 179, 0.7); /* Adding a semi-transparent background for better text readability */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero .learn-more {
+    margin-top: 20px;
+}
+
+.hero .learn-more h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.hero .learn-more ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hero .learn-more ul li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.solutions {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.solutions h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.solutions p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}

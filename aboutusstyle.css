@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+}
+
+header {
+    background-color: #000766;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    background: url('solutions_LE_auto_x2.jpg') no-repeat center center/cover;
+    color: #030866;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.8em;
+}
+
+.solutions {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.solutions h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.solutions p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.solutions ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.solutions ul li {
+    font-size: 10.1em;
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+.form-section {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.form-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.form-section iframe {
+    border: none;
+    width: 100%;
+    max-width: 640px;
+    height: 815px;
+    border-radius: 10px;
+}
